@@ -271,6 +271,17 @@
     pointer-events: none;
 }
 
+
+.play-btn:hover{
+    transition: background-color 2s;
+    opacity: 1;
+    background: #00c918bd;
+}
+
+.play-btn-reset:hover {
+    background-color: #6b6b6b;
+    transition: background-color 3s;
+}
 .instance-select {
     display: flex;
     align-items: center;
@@ -320,6 +331,13 @@
     font-size: 3rem;
     color: var(--element-color);
     margin: 0 1.5rem;
+}
+
+.settings-btn:hover {
+    border-radius: 5px;
+    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
+    transition: background-color 2s;
+    background-color: #2d00bf00;
 }
 
 .instance-popup {

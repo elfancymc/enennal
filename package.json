@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.5",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "Enena-Launcher",
+    "preductname": "Enena Launcher",
+    "version": "1.0.1",
+    "description": "Launcher oficial de Enena",
     "main": "src/app.js",
     "author": {
         "name": "luuxis, Inc.",
         "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "url": "https://enenas.wstr.fr"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "https://enenas.wstr.fr",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://cdn.discordapp.com/attachments/1154825222042701824/1227006190035402772/258_sin_titulo_20240408172414.png?ex=664c6850&is=664b16d0&hm=2edbdd4703fa8d5cc064f0d789e086dfdd0412ad19a7345e63dc1ca0d8932356&"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/elfancymc/enena.git"
     }
 }

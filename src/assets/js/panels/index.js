@@ -24,19 +24,12 @@ class Splash {
         let splashes = [
             { "message": "Vamos muchachos", "author": "ElFancyMC" },
             { "message": "Apoco si tilin.", "author": "ElFancyMC" },
-            { "message": "MATE A UNOOOOO!", "author": "Mateo" },
+            { "message": "MATE A UNOOOOO!", "author": "ElFancyMC" },
             { "message": "al herba no le gusto el launcher ;(", "author": "ElFancyMC" },
-            { "message": "ElFancyMC >>>>>> ElRichMC", "author": "ElFancyMC" },
+            { "message": "ElFanycMC >>>>>> ElRichMC", "author": "ElFancyMC" },
             { "message": "los quiero enena", "author": "ElFancyMC" },
             { "message": "18/3/23 Enena Aniversary", "author": "ElFancyMC" },
-            { "message": "ElFancyMC es goty", "author": "ElFancyMC" },
-            { "message": "¡VEN PARA ACA!", "author": "Licotty" },
-            { "message": "Montate en mi motora", "author": "pepinilxx"},
-            { "message": "diabla  o no diabla", "author": "licotty"},
-            { "message": "se te escucha cremoso", "author": "fran"},
-            { "message": "ay boluda", "author": "herbasbm"},
-            { "message": "ENTIENDES O NO ENTIENDES?", "author": "snorlax23"},
-            { "message": "Mateo hits hard", "author": "Mateo"}]
+            { "message": "ElFanycMC es goty", "author": "ElFancyMC" }]
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
         this.splashAuthor.children[0].textContent = "@" + splash.author;

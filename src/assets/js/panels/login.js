@@ -72,8 +72,8 @@ class Login {
         connectOffline.addEventListener('click', async () => {
             if (emailOffline.value.length < 3) {
                 popupLogin.openPopup({
-                    title: 'Erreur',
-                    content: 'Votre pseudo doit faire au moins 3 caractères.',
+                    title: 'Errot',
+                    content: 'Tu nombre debe tener mas de 3 caracteres.',
                     options: true
                 });
                 return;
@@ -81,8 +81,8 @@ class Login {
 
             if (emailOffline.value.match(/ /g)) {
                 popupLogin.openPopup({
-                    title: 'Erreur',
-                    content: 'Votre pseudo ne doit pas contenir d\'espaces.',
+                    title: 'Error',
+                    content: 'Tu nombre no puede tener espacios.',
                     options: true
                 });
                 return;
@@ -121,7 +121,7 @@ class Login {
 
         AZauthConnectBTN.addEventListener('click', async () => {
             PopupLogin.openPopup({
-                title: 'Connexion en cours...',
+                title: 'Connexion en curso...',
                 content: 'Veuillez patienter...',
                 color: 'var(--color)'
             });
